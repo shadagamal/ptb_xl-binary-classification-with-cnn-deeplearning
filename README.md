@@ -263,6 +263,12 @@ test_loss, test_accuracy = model.evaluate(X_test, y_test)
 print(f"Test Loss: {test_loss}")
 print(f"Test Accuracy: {test_accuracy}")
 ```
+
+<div>
+<img src="https://github.com/shadagamal/ptb_xl-binary-classification-with-cnn-deeplearning/blob/main/output%20photos/Screenshot%202024-05-19%20072148.png?raw=true"width=600 heigth=600>   
+</div>
+
+
 ### 11. Predict the labels for the test set and computing the confusion matrix, sensitivity, specificity, F1 score, precision, recall, plotting the ROC curve with AUC, and printing the classification report.
 
 ```
