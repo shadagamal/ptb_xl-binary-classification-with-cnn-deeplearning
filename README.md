@@ -26,6 +26,10 @@ data=pd.read_csv(r"C:\Users\shada\Desktop\project trying my best part 2\data\ptb
 data.head()
 ```
 
+<div>
+<img src="https://github.com/shadagamal/ptb_xl-binary-classification-with-cnn-deeplearning/blob/main/output%20photos/Screenshot%202024-05-19%20070346.png?raw=true"width=600 heigth=600>   
+</div>
+
 
 ### 4. Making a separate DataFrame that contains specific columns "desired columns" and extract the first key of the 'scp_codes' column 
 ```
@@ -164,7 +168,12 @@ def create_dataset(ecg_records, labels):
     y = np.array(y)
     return X, y
 ```
-<img scr="">
+
+
+<div>
+<img src="https://github.com/shadagamal/ptb_xl-binary-classification-with-cnn-deeplearning/blob/main/output%20photos/Screenshot%202024-05-19%20072906.png?raw=true"width=600 heigth=600>   
+</div>
+
 
 ### 8. Applying all the above functions 
 ```
@@ -230,6 +239,9 @@ model = Sequential([
 
 model.summary()
 ```
+<div>
+<img src="https://github.com/shadagamal/ptb_xl-binary-classification-with-cnn-deeplearning/blob/main/output%20photos/Screenshot%202024-05-19%20072102.png?raw=true"width=500 heigth=500>   
+</div>
 
 ### 10. Train the model
 ```
@@ -308,3 +320,8 @@ plt.show()
 print('Classification Report:')
 print(classification_report(y_test, y_pred_classes))
 ```
+<div>
+<img src="https://github.com/shadagamal/ptb_xl-binary-classification-with-cnn-deeplearning/blob/main/output%20photos/Screenshot%202024-05-19%20082422.png?raw=true"width=500 heigth=500>   
+<img src="https://github.com/shadagamal/ptb_xl-binary-classification-with-cnn-deeplearning/blob/main/output%20photos/Screenshot%202024-05-19%20082703.png?raw=true"width=500 heigth=500>
+<img src="https://github.com/shadagamal/ptb_xl-binary-classification-with-cnn-deeplearning/blob/main/output%20photos/Screenshot%202024-05-19%20082445.png?raw=true"width=500 heigth=500>
+</div>
